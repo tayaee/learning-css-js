@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+  --youtube-header-height: 50px;
+  --youtube-sidebar-width: 250px;
+}
+
+body {
+  background-color: #f9f9f9;
+}
+
+.youtubeHeader {
+  background-color: white;
+  width: 100%;
+  height: var(--youtube-header-height);
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.youtubeLogoSVG {
+  /* baxckground-color: blue; */
+  height: 30px;
+  margin: 7px;
+  margin-top: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.youtubeSearchBar {
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.youtubeHeaderSearchInput {
+  /* background-color: blue; */
+  outline: none;
+  padding: 4px;
+  width: 20em;
+  font-size: 17px;
+  justify-content: center;
+  align-items: center;
+}
+
+.youtubeHeaderSearchInput::-webkit-input-placeholder {
+  font-size: 17px;
+}
+
+.searchIconHeader {
+  padding: 7px;
+  border: 1px solid grey;
+  background-color: #f8f8f8;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.searchIconHeader i {
+  /* background-color: blue; */
+  color: #606060;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.micIconHeader {
+  padding: 7px;
+  border: 0px solid grey;
+  background-color: transparent;
+  padding-right: 20px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.youtubeHeaderIcons {
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.youtubeHeaderIcon {
+  color: #606060;
+  margin: 13px;
+  margin-right: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.avatar {
+  /* background-color: blue; */
+  border-radius: 200px;
+}
+
+.youtubeHeaderAvatarIcon {
+  /* background-color: red; */
+  border-radius: 200px;
+  height: 35px;
+}
+
+/* ------------- */
+
+.youtubeBottomSection {
+  display: flex;
+  flex-direction: row;
+}
+
+.youtubeSidebar {
+  margin-top: var(--youtube-header-height);
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: var(--youtube-sidebar-width);
+  height: 100vh;
+  position: fixed;
+  left: 0;
+}
+
+.youubeSidebarField {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.youubeSidebarField i {
+  font-size: 15px;
+  color: #606060;
+  margin: 10px;
+  margin-right: 25px;
+  margin-left: 10px;
+}
+
+.youubeSidebarField h1 {
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.youubeSidebarField:hover {
+  background-color: #e5e5e5ab;
+}
+
+.youubeSidebar__hr {
+  height: 1px;
+  border-top: 1px solid rgba(128, 128, 128, 0.4);
+  width: 100%;
+  height: 10px;
+}
+
+/* -------------------- */
+.youtubeVideos {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: var(--youtube-header-height);
+  flex: 1;
+  margin-left: var(--youtube-sidebar-width);  
+  background-color: white;  
+  width: 100%;
+}
+
+.youtubeVideo {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  width: 270px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.youtubeVideoThumbnail {
+  height: auto;
+  width: 260px;
+}
+
+.youtubeVideoDetails {
+  display: flex;
+  flex-direction: row;
+}
+
+.youtubeChannelThumbnail {
+  border-radius: 200px;
+  height: 40px;
+  margin-top: 12px;
+  
+}
+
+.youtubeVideoDetailsText {
+  display: flex;
+  flex-direction: column;
+}
+
+.youtubeVideoTitle {
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+  font-weight: 500;
+  margin: 10px;
+  margin-top: 12px;
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+.youtubeChannelName {
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  color: #606060;
+  font-weight: 400;
+  margin-top: 2px;
+  margin-left: 10px;
+}
+
+.youtubeVideoViews {
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  color: #606060;
+  font-weight: 400;
+  margin-top: -12px;
+  margin-left: 10px;
+}
