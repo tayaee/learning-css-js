@@ -1,10 +1,13 @@
 Video lesson
 	https://www.youtube.com/watch?v=72unDAR0U-8
 
+Jsfiddle
+	https://jsfiddle.net/soonki/xvyhjs1z/480/
+
 Youtube icon
 	https://justpaste.it/699r4
 
-Icons
+All icons
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	https://fontawesome.com/v4/get-started/
 	https://fontawesome.com/v4/icons/
@@ -13,8 +16,7 @@ Icons
 
 Fonts
 	Youtube uses Roboto
-
-	@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-	font-family: 'Roboto', sans-serif;
+		@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+		font-family: 'Roboto', sans-serif;
 
 Havardx cs50 web development
